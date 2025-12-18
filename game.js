@@ -1,5 +1,6 @@
 // game.js - 英语单词记忆游戏核心逻辑
-
+// 在game.js开头添加
+const dataManager = window.dataManager;
 class WordGame {
     constructor() {
         this.words = [];
@@ -373,4 +374,5 @@ class WordGame {
 }
 
 // 创建全局游戏实例
+
 window.wordGame = new WordGame();
